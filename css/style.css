@@ -1,0 +1,63 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.mdr{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+div{
+	border-style: solid;
+	border-width: 2px;
+}
+
+.mdr__colonne{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.mdr__ligne{
+	display: flex;
+	flex-direction: row;
+}
+
+.mdr--coloryellow{
+	background-color: yellow;
+}
+
+.mdr--colorred{
+	background-color: red;
+}
+
+.mdr--colorblue{
+	background-color: blue;
+}
+
+.mdr--colorwhite{
+	background-color: white;
+}
+
+
+.mdr--flex1{
+	flex: 1;
+}
+
+.mdr--flex2{
+	flex: 2;
+}
+
+.mdr--flex3{
+	flex: 3;
+}
+
+.mdr--flex4{
+	flex: 4;
+}
